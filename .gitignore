@@ -17,6 +17,10 @@
 !/log/.keep
 !/tmp/.keep
 
+#Ignore the default SQLite databases.
+/db/*.sqlite3
+/db/*.sqlite3-*
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
